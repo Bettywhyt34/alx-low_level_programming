@@ -34,7 +34,6 @@ char *create_array(unsigned int size, char c)
 	buffer = (char *) malloc(size * sizeof(c));
 
 
-
 	if (buffer == 0)
 
 	{
@@ -42,8 +41,6 @@ char *create_array(unsigned int size, char c)
 		return (NULL);
 
 	}
-
-
 
 	else
 
@@ -54,19 +51,10 @@ char *create_array(unsigned int size, char c)
 		while (position < size)
 
 		{
-
 			*(buffer + position) = c;
-
 			position++;
-
 		}
-
-
-
 		return (buffer);
-
 	}
-
-
 
 }

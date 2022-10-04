@@ -103,7 +103,7 @@ char *_strdup(char *str)
 
 
 
-	dst = (char *) malloc(size *sizeof(char));
+	dst = (char *) malloc(size * sizeof(char));
 
 
 
